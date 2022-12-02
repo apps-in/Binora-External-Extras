@@ -23,6 +23,17 @@ public class EcgDemo {
         intent.putExtra(ExternalExtras.EXTRA_ECG_MODE, ExternalExtras.HUMAN_MODE_EXTRA_VALUE);
 
         /*
+        ECG power line filter
+        Value type: string constant
+        Possible values:
+        -> ExternalExtras.POWER_LINE_FILTER_NONE_EXTRA_VALUE
+        -> ExternalExtras.POWER_LINE_FILTER_50_HZ_EXTRA_VALUE
+        -> ExternalExtras.POWER_LINE_FILTER_60_HZ_EXTRA_VALUE
+        Default value: ExternalExtras.POWER_LINE_FILTER_NONE_EXTRA_VALUE
+        */
+        intent.putExtra(ExternalExtras.EXTRA_ECG_POWER_LINE_FILTER, ExternalExtras.POWER_LINE_FILTER_50_HZ_EXTRA_VALUE);
+
+        /*
         Sound state during ECG input
         Value type: boolean
         Possible values:

@@ -5,6 +5,7 @@ public class ExternalExtras {
     public static final String EXTRA_LANGUAGE = "app.binora.extra.LANGUAGE";
     public static final String EXTRA_THEME = "app.binora.extra.THEME";
     public static final String EXTRA_ECG_MODE = "app.binora.extra.ECG_MODE";
+    public static final String EXTRA_ECG_POWER_LINE_FILTER = "app.binora.extra.ECG_POWER_LINE_FILTER";
     public static final String EXTRA_SOUND_STATE = "app.binora.extra.SOUND_STATE";
     public static final String EXTRA_VOLUME = "app.binora.extra.VOLUME";
     public static final String EXTRA_MAX_DURATION = "app.binora.extra.MAX_DURATION";
@@ -32,6 +33,9 @@ public class ExternalExtras {
     public static final String HUMAN_MODE_EXTRA_VALUE = "HUMAN";
     public static final String INTERNAL_TEST_MODE_EXTRA_VALUE = "INTERNAL_TEST";
     public static final String SIMULATOR_MODE_EXTRA_VALUE = "SIMULATOR";
+    public static final String POWER_LINE_FILTER_NONE_EXTRA_VALUE = "NONE";
+    public static final String POWER_LINE_FILTER_50_HZ_EXTRA_VALUE = "50HZ";
+    public static final String POWER_LINE_FILTER_60_HZ_EXTRA_VALUE = "60HZ";
     public static final String SCALE_SMALL_EXTRA_VALUE = "S";
     public static final String SCALE_MEDIUM_EXTRA_VALUE = "M";
     public static final String SCALE_LARGE_EXTRA_VALUE = "L";
